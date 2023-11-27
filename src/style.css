@@ -1,0 +1,34 @@
+.main{
+display: flex;
+justify-content: space-around;
+padding: 20px;
+background-color: rgb(12, 106, 12);
+}
+.logo img{
+    width:7em;
+}
+.searchBar{
+border-radius: 30px;
+width: 30em;
+height: 20px;
+background-color: white;
+display: flex;
+justify-content: space-evenly;
+padding: 10px;
+margin: 10px;
+}
+
+.searchBar img{
+    width: 2em;
+    height: 2em;
+}
+.findStore{   
+    line-height: 0.8px;
+    display: flex;
+    
+}
+.findStore img{
+    width: 2em;
+    height: 2em;
+    padding-top: 20px;
+}
