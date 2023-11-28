@@ -2,7 +2,7 @@ import React from 'react'
 
 function GroceryPickup() {
   return (
-    <div>GroceryPickup</div>
+    <div class="grocery">GroceryPickup</div>
   )
 }
 

@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <div class='main'>
      <Homepage/> 
-     <div class="searchBar"><input type='search' placeholder='Search In-Store Products'/><img src='https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png' alt='search image'/></div>
+     <div class="searchBar"><input type='search' placeholder='Search In-Store Products'/><img src='https://cdn3.iconfinder.com/data/icons/feather-5/24/search-512.png' alt='search'/></div>
      <Findstore/>
      <Login/>
      <Cart/>
@@ -38,6 +38,19 @@ function App() {
       <LunchAndDinner/>
       <Recipes/>
      </div>
+     <div class="image">
+      <div class="text"><h1>Act Fast: Hot 18" Cheese Pizza, $10 Each </h1>
+      <p>Prime members: Pounce on a sizzling whole pizza the whole family will love for just $10 through 11/28. Plus, save on seasonal ingredients and favorites to pair with your pie. </p>
+      <button>See all Sales</button>
+      </div>
+      <img src="https://png.pngtree.com/png-vector/20230318/ourmid/pngtree-cheese-pizza-food-transparent-on-white-background-png-image_6655742.png" alt='cheese pizza'/>
+      </div>
+      <div class='links'>        
+        <GroceryPickup />
+        <Catering/>
+        <ShippedtoYou/>
+        <WeeklySales/>
+      </div>
     </div>
   );
 }
