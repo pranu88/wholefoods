@@ -7,6 +7,7 @@ font-weight: bold;
 color: white;
 position: fixed;
 width:100%;
+height: 5em;
 }
 .logo img{
     width:7em;
@@ -26,15 +27,25 @@ margin: 10px;
     width: 2em;
     height: 2em;
 }
-.findStore{   
-    line-height: 0.8px;
-    display: flex;
-    
+.searchBar input{
+    outline: none;
 }
+.findStore{   
+    line-height: 0.5px;
+    display: flex;    
+    height: 4em;
+    /* border: solid black; */
+    object-fit: cover;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+
 .findStore img{
     width: 2em;
     height: 2em;
     padding-top: 20px;
+    align-self: flex-start;
+    
 }
 .nav{
     display: flex;
@@ -79,4 +90,8 @@ margin: 10px;
     font-weight: bold;
     color:darkgreen;
     margin-top: 10em;
+}
+.dinnerSec img{
+    height:40em;
+    width: 100%;
 }

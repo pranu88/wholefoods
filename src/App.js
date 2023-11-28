@@ -51,6 +51,13 @@ function App() {
         <ShippedtoYou/>
         <WeeklySales/>
       </div>
+      <div class='text'>
+        <h1>Dinner? Done! Shop our mealtime shortcuts. </h1>
+        <p>Chill out with meals that are ready to go and ready to heat, from chef-inspired solves to frozen faves. Even easier? Get it all with pickup or delivery. </p>
+        <button>See all Sales</button>
+      </div>
+      <div class='dinnerSec'><img src='https://i0.wp.com/withtwospoons.com/wp-content/uploads/2019/01/whole-30-collage.png?ssl=1' alt = ''/>
+      </div>
     </div>
   );
 }
